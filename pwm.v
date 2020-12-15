@@ -15,6 +15,7 @@ begin
 // T - pwm period
 // fclk - clock frequency 50Mhz -> 20ns
 // timReset - timer resets when it reaches this value
+// Timer increments every 20ns
 //--------------------------------------------------------//
 compare<=16'd10000; // duty cycle  (0% - 100%) -> (0 - 20000)  
 if( counter<compare ) 
